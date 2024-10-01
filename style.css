@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    /* position: fixed;
+    width: 100%; */
+    
+}
+
+.container{
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.bg{
+    background-image: url(./Rectangle\ 71.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-position: top; */
+}
+.head3{
+    display: flex;
+    align-items: center;
+}
+.head2{
+    display: flex;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+} 
+a:hover{
+    opacity: 1;
+}
+.head4 h1{
+    width: 420px;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.head6{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.head4{
+    margin-left: 150px;
+}
+.btn1{
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.btn2{
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    color: orange;
+    border: none;
+}
+.head5{
+margin-top: 30px; 
+
+}
+i{
+    opacity: 0.5;
+}
+i:hover{
+    opacity: 1;
+}
+.btn3{
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    color: orange;
+    border: none;
+    margin-top: 15px;
+}
+.head8{
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 500px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.head8 h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.head7{
+    display: flex;
+    gap: 20px;
+}
+.img3{
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+}
+.head8 p{
+    font-size: 20px;
+    width: 350px;
+    margin-left: 75px;
+}
+.head9{
+    text-align: center;
+}
+.head9 h1{
+margin-bottom: 10px;
+}
+.head10{
+    display: flex;
+}
+.head11{
+    background-color:  #f46d0e;
+
+    
+}
+.img4{
+    background-color: green;
+}
+#scrollButton{
+    position: fixed;
+    bottom: 200px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
